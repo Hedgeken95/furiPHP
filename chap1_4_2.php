@@ -11,6 +11,6 @@ $sale = $value * 0.7;
 var_dump( $sale );
 
 var_dump( "入力してください" );
-$msg = fgets( STDIN );
-var_dump( $msg );
+$msg = trim( fgets( STDIN ) );
+var_dump( "入力結果:" . $msg );
 ?>

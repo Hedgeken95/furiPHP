@@ -9,4 +9,6 @@ var_dump( "数値を入力せよ" );
 $value = trim( fgets( STDIN ) );
 var_dump( $value );
 var_dump( $value + 10 );
+
+var_dump( "ハロー", 10, 2.5 );
 ?>
